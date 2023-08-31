@@ -1,3 +1,12 @@
 :root {
     --primary-color: #fff6e7;
+    --black-color: #170102;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-serif{
+    font-family: 'DM Serif Display', serif;
 }
