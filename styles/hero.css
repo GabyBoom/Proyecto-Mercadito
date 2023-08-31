@@ -1,0 +1,21 @@
+.plate-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plate{
+    width:120px;
+    height: auto;
+    padding: 1rem 0;
+}
+.plate-circle {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border-radius: 0 0 50% 50%;
+    transform: translate(0, -45%);
+}
