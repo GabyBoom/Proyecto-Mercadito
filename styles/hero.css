@@ -1,3 +1,7 @@
+.hero{
+    position: relative;
+    padding-bottom: 4rem;
+}
 .plate-wrapper{
     position: relative;
     display: flex;
@@ -38,4 +42,36 @@
     padding: 0.75em 1em;
     border-radius: 20px;
     width: fit-content;
+    border: 1px solid var(--black-color);
+    transition: all;
+    transition-duration: 300ms;
+}
+.papas-left{
+    width: 200px;
+    position: absolute;
+    border-radius: 40%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transform: rotate(25deg) translate(-15%, 50%);
+}
+.milanesa-right{
+    width: 220px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: rotate(-25deg) translate(15%, 57%);
+}
+.palo{
+    width: 150px;
+    position: absolute;
+    top: -10%;
+}
+.hero-button:hover {
+    cursor: pointer;
+    background: var(--primary-color);
+    color: var(--black-color);
+    border: 1px solid var(--black-color);
+    scale: 1.025;
 }
